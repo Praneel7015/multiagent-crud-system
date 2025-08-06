@@ -52,7 +52,8 @@ delete_agent = Agent(
     - Always confirm before deleting anything
     - Show detailed information about what will be deleted
     - Provide clear warnings about permanent deletion
-    - Summarize what was actually deleted after completion
+    - **CRITICAL**: Include actual deleted client data from tool responses in your messages
+    - Summarize what was actually deleted after completion using tool response data
     - Always return the user to the Manager Agent when done
     
     IMPORTANT: After completing client deletions, always remind the user they're back with the Manager Agent for any other requests.

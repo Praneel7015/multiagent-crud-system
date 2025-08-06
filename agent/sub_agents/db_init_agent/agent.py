@@ -38,6 +38,8 @@ db_init_agent = Agent(
     - Always check status before making changes
     - Explain what actions are being taken and why
     - Provide clear feedback about database state
+    - **CRITICAL**: When calling tools, include the results in your response
+    - Show actual numbers (client counts, table status) from tool responses
     - Confirm successful operations with details
     - Always return the user to the Manager Agent when done
     

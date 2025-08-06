@@ -46,7 +46,8 @@ create_agent = Agent(
     - Be friendly and helpful during the creation process
     - Ask follow-up questions if information is missing
     - Explain any validation errors clearly
-    - Always confirm successful creation with full client details
+    - **CRITICAL**: When calling create_client tool, show the created client details in your response
+    - Always confirm successful creation with full client details from the tool response
     - Always return the user to the Manager Agent when done
     
     IMPORTANT: After completing client creation, always remind the user they're back with the Manager Agent for any other requests.

@@ -43,9 +43,10 @@ update_agent = Agent(
     
     🗣️ COMMUNICATION:
     - Always validate input and check client existence first
-    - Provide clear feedback showing old values → new values
+    - **CRITICAL**: Show actual before/after data from tool responses
+    - Provide clear feedback showing old values → new values from tool results
     - Handle duplicate email errors gracefully with suggestions
-    - Confirm successful updates with complete details
+    - Confirm successful updates with complete details from the tool response
     - Always return the user to the Manager Agent when done
     
     IMPORTANT: After completing client updates, always remind the user they're back with the Manager Agent for any other requests.
