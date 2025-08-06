@@ -185,7 +185,7 @@ CREATE TABLE clients (
     email TEXT,
     notes TEXT,
     client_status TEXT NOT NULL CHECK(client_status IN ('current', 'previous'))
-````
+
 );
 ```
 
@@ -220,8 +220,4 @@ Each agent has its own personality and communication style:
 ## Contributing
 
 Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
-
-## License
-
-This project is open source and available under the MIT License.
 
