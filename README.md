@@ -133,15 +133,6 @@ Then access the application at the provided URL (typically http://localhost:8080
 ### Natural Conversation Approach
 Just talk to the system naturally! Here are some examples:
 
-**Getting Started:**
-```
-You: "Hi"
-System: [Friendly introduction and asks what you need]
-
-You: "What can you do?"
-System: [Explains all capabilities and asks how to help]
-```
-
 **Viewing Clients:**
 ```
 "Show me my clients"
