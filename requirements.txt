@@ -1,0 +1,3 @@
+google-adk[database]==0.3.0
+python-dotenv==1.1.0
+deprecated
